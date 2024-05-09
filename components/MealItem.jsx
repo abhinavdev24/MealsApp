@@ -1,7 +1,6 @@
 import { Image, Pressable, StyleSheet, Text, View } from "react-native";
 
 const MealItem = ({ title, imageUrl, duration, complexity, affordability }) => {
-  console.log(imageUrl);
   return (
     <View style={styles.mealItem}>
       <Pressable

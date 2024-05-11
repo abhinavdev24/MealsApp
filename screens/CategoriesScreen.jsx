@@ -17,6 +17,7 @@ const CategoriesScreen = ({ navigation }) => {
       />
     );
   };
+
   return (
     <FlatList
       data={CATEGORIES}
